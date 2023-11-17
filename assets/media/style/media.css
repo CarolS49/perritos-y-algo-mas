@@ -2,20 +2,16 @@
     h1{
         font-size: 2em;
         margin-top: 1.2em;
+    }
 
-    }
-    #fotoPrincipalContainer{
-        width: 80%;
-        height: auto;
-    }
     #fotoPrincipalContainer img{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         object-fit: cover;
     }
 }
 
-@media only screen and (max-width: 469px){
+@media only screen and (max-width: 400px){
     .container {
         width: 80%;
     }
@@ -24,7 +20,8 @@
         font-size: 1.5em;
     }
     img{
-        max-height: 200px !important;
-        max-width: 200px !important;
+        width: 70%;
+        max-height: 150px !important;
+        max-width: 150px !important;
     }
 }
